@@ -1,6 +1,9 @@
 /**
      * @param Create$MODEL_NAME$APIRequest $request
+     *
      * @return Response
+     *
+     * @throws \Prettus\Validator\Exceptions\ValidatorException
      *
      * @SWG\Post(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$",

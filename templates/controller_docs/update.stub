@@ -1,7 +1,10 @@
 /**
      * @param int $id
      * @param Update$MODEL_NAME$APIRequest $request
+     *
      * @return Response
+     *
+     * @throws \Prettus\Validator\Exceptions\ValidatorException
      *
      * @SWG\Put(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$/{id}",

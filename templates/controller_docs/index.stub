@@ -1,6 +1,9 @@
 /**
      * @param Request $request
+     *
      * @return Response
+     *
+     * @throws \Prettus\Repository\Exceptions\RepositoryException
      *
      * @SWG\Get(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$",
